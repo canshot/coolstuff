@@ -1,8 +1,8 @@
 # Site settings
 title: "cool stuff"
 description: "반갑습니다"
-baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
-url: ""
+baseurl:  # required if used under gh-pages branch, else (under master branch) just leave empty/blank
+url: 
 author: "Jaewan"
 
 # Build settings
