@@ -17,6 +17,7 @@ disqus_shortname:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate-v2
 
 exclude: ["LICENSE", "README.md", "vendor", "script", "Gemfile", "Gemfile.lock"]
 
