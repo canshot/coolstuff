@@ -33,10 +33,3 @@ pagination:
 # Produces a cleaner folder structure when using categories
 permalink: /:year/:month/:title.html
 
-gems:
-  - jekyll-paginate-v2
-  
-  group :jekyll_plugins do
-  gem "jekyll-paginate-v2"
-  gem "jekyll-feed"
-end
