@@ -19,5 +19,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
 exclude: ["LICENSE", "README.md", "vendor", "script", "Gemfile", "Gemfile.lock"]
  
