@@ -20,16 +20,6 @@ plugins:
 
 exclude: ["LICENSE", "README.md", "vendor", "script"]
 
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/page/:num/'
-  title_suffix: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  
-# Produces a cleaner folder structure when using categories
-permalink: /:year/:month/:title.html
-
+# Old jekyll-paginate pagination logic
+paginate: 3
+paginate_path: "/legacy/page:num/"
