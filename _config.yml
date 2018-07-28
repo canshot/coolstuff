@@ -18,7 +18,7 @@ disqus_shortname:
 plugins:
   - jekyll-sitemap
 
-exclude: ["LICENSE", "README.md", "vendor", "Gemfile", "script"]
+exclude: ["LICENSE", "README.md", "vendor", "script"]
 
 # Pagination Settings
 pagination:
@@ -32,3 +32,11 @@ pagination:
   
 # Produces a cleaner folder structure when using categories
 permalink: /:year/:month/:title.html
+
+gems:
+  - jekyll-paginate-v2
+  
+  group :jekyll_plugins do
+  gem "jekyll-paginate-v2"
+  gem "jekyll-feed"
+end
