@@ -18,8 +18,14 @@ disqus_shortname:
 plugins:
   - jekyll-sitemap
 
-exclude: ["LICENSE", "README.md", "vendor", "script"]
+exclude: ["LICENSE", "README.md", "vendor", "script", "Gemfile", "Gemfile.lock"]
 
-# Old jekyll-paginate pagination logic
-paginate: 3
-paginate_path: "/legacy/page:num/"
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
