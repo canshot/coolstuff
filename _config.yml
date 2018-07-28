@@ -17,19 +17,7 @@ disqus_shortname:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 exclude: ["LICENSE", "README.md", "vendor", "script", "Gemfile", "Gemfile.lock"]
-
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/:num/'
-  title: ':title | :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-
-# Produces a cleaner folder structure when using categories
-permalink: /:year/:month/:title.html
+ 
